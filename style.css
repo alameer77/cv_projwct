@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&display=swap');
+*{
+padding:0px;
+margin:0px;
+font-family:"Cairo", sans-serif;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+height:;
+
+}
+
+header{
+background-color:#666666;
+width:100%;
+position:fixed;
+z-index:100;
+display:flex;
+justify-content:space-between;
+
+align-items:center;
+padding:10px 150px ;
+
+
+}
+.logo{
+color:red;
+text-decoration:none;
+font-size:26px;
+font-weight:bold;
+
+}
+
+nav a{
+color:red;
+text-decoration:none;
+font-size:18px;
+font-weight:600;
+padding-left:20px;
+}
+
+nav a:hover {
+color:blue;
+font-weight:900;
+
+}
+section {
+
+padding:100px 150px;
+
+}
+
+.content{
+
+width:100%;
+height:100vh;
+display:flex;
+align-items:center;
+background-color:;
+background-image:url("../images/0x0.jpg");
+background-repeat:no-repeat;
+
+background-position:center;
+background-size:cover;
+
+
+
+}
+
+.content h2{
+color:white;
+font-size:70px;
+font-weight:bold;
+
+
+}
+.content h2 span{
+color:red;
+}
+
+.content h3{
+    margin-top: 40px;
+color:#eee;
+font-size:30px;
+font-weight:bold;
+
+
+}
+.content h3:first-letter{
+
+color:red;
+
+}
+
+.contact-me{
+display:inline-block;
+color:white;
+background-color:red;
+text-decoration:none;
+padding:5px 15px;
+border-radius:10px;
+margin:20px 0px;
+font-weight:600;
+transition:0.5s ease;
+
+
+}
+.contact-me :hover {
+
+background-color:blue;
+transform:scale(1.1);
+}
+
+.social a{
+color:black;
+font-size:30px;
+padding-right:25px;
+text-decoration:none;
+
+}
+
+.our-services {
+text-align:center;
+background-color:#eee;
+
+}
+.our-services  h2{
+
+color:red;
+font-size:35px;
+
+}
+.our-services  p{
+
+color:rgb(74,74,74);
+font-size:22px;
+margin-bottom:35px;
+}
+
+.services {
+display:flex;
+
+
+}
+.box {
+background-color:#ffffff;
+padding:20px;
+margin:20px;
+border:1px solid #eee;
+border-radius:10px;
+transition:all 0.5s ease;
+
+
+}
+
+.icon {
+
+color:red;
+font-size:40px;
+}
+
+.box h3{
+font-size:30px;
+
+}
+.box:hover{
+background-color:#fafafa;
+border-radius:5px;
+box-shadow:0 5px 5px red;
+cursor:pointer;
+transform:scale(1.5);
+
+
+}
+
+
+.portfolio {
+
+text-align:center;
+}
+
+.portfolio h2{
+
+color:red;
+font-size:35px;
+
+}
+.portfolio p{
+color:rgb(74,74,74);
+font-size:22px;
+margin-bottom:35px;
+}
+.photos {
+
+display:flex;
+}
+.photo {
+
+margin:20px;
+transition:all 0.5s ease;
+
+}
+.photos img{
+
+width:100%;
+
+
+}
+
+.photo:hover{
+    background-color:#fafafa;
+    border-radius:5px;
+    box-shadow:0 5px 5px red;
+    cursor:pointer;
+    transform:scale(1.5);
+
+
+}
+
+
+.contact-us {
+background-color:#eee;
+text-align:center;
+
+}
+.contact-us h2{
+color:red;
+font-size:35px;
+}
+.contact-us p{
+color:rgb(74,74,74);
+font-size:22px;
+margin-bottom:35px;
+}
+
+.contact-area {
+width:90%;
+background-color:white;
+margin:30px auto;
+padding:35px;
+border:1px solid #eee;
+border-radius:10px;
+transition:all 0.5s ease;
+}
+
+.contact-area:hover{
+    background-color:#fafafa;
+    border-radius:5px;
+    box-shadow:0 5px 5px red;
+    cursor:pointer;
+    transform:scale(1.1);
+
+}
+
+.form-input input{
+width:70%;
+height:40px;
+margin-bottom:30px;
+border-radius:5px;
+border:1px solid #d4d4d4;
+
+}
+.form-input textarea {
+width:60%;
+margin-bottom:30px;
+border-radius:5px;
+border:1px solid #d4d4d4;
+}
+
+.send {
+padding:10px 20px;
+background-color:red;
+color:white;
+border-radius:5px;
+cursor:pointer;
+
+}
+.send:hover{
+
+background-color:blue;
+
+}
+
+
+
+
+
+footer{
+padding-top:50px;
+text-align:center;
+background-color:#615e5e;
+border-top:5px solid red;
+}
+.footer-social a{
+color:black;
+font-size:35px;
+padding-right:25px;
+text-decoration:none;
+
+}
+footer p{
+text-align:center;
+color:white; 
+font-size:23px;
+}
+
+
+
+.img-profile {
+width:100%;
+height:50%;
+display:inline-block;
+box-sizing: border-box;
+margin:;
+}
+.content img{
+width:400px;
+height:400px;
+float:right;
+border-radius:50%;
+margin-bottom:40px;
+display:inline-block;
+box-sizing: border-box;
+}
