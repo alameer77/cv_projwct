@@ -124,6 +124,7 @@ text-decoration:none;
 .our-services {
 text-align:center;
 background-color:#eee;
+    width:100%;
 
 }
 .our-services  h2{
@@ -145,10 +146,12 @@ display:flex;
 
 }
 .box {
+    width:30%;
 background-color:#ffffff;
 padding:20px 10px;
 margin:20px;
-    
+    flex-wrap:nowrap;
+ justify-content:space-evenly;   
 border:1px solid #eee;
 border-radius:10px;
 transition:all 0.5s ease;
