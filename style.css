@@ -342,4 +342,5 @@ transition:all 0.5s ease;
 
    transform:scale(1.5); 
     box-shadow: 1px 5px 5px red;
+    transform:rotateY(180deg);
 }
