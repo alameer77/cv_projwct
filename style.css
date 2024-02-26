@@ -142,6 +142,9 @@ margin-bottom:35px;
 
 .services {
 display:flex;
+    width:100%;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
 
 
 }
@@ -150,8 +153,8 @@ display:flex;
 background-color:#ffffff;
 padding:20px 10px;
 margin:20px;
-    flex-wrap:nowrap;
- justify-content:space-evenly;   
+    flex-wrap:wrap;
+  
 border:1px solid #eee;
 border-radius:10px;
 transition:all 0.5s ease;
