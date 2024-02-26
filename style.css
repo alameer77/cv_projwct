@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&display=swap');
 *{
-padding:0px;
-margin:0px;
+padding:0;
+margin:0;
 font-family:"Cairo", sans-serif;
 box-sizing:border-box;
 scroll-behavior:smooth;
@@ -146,8 +146,9 @@ display:flex;
 }
 .box {
 background-color:#ffffff;
-padding:20px;
+padding:20px 10px;
 margin:20px;
+    
 border:1px solid #eee;
 border-radius:10px;
 transition:all 0.5s ease;
@@ -170,7 +171,7 @@ background-color:#fafafa;
 border-radius:5px;
 box-shadow:0 5px 5px red;
 cursor:pointer;
-transform:scale(1.5);
+transform:scale(1.3);
 
 
 }
