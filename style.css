@@ -42,6 +42,7 @@ padding-left:20px;
 }
 
 nav a:hover {
+    background-color:yellow;
 color:blue;
 font-weight:900;
 
