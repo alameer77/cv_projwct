@@ -61,7 +61,6 @@ display:flex;
     justify-content:;
 align-items:center;
     text-align:center;
-background-color:;
 background-image:url("https://st2.depositphotos.com/1144687/50726/i/1600/depositphotos_507263362-stock-photo-double-exposure-man-hand-holding.jpg");
 background-repeat:no-repeat;
 
@@ -84,7 +83,7 @@ color:red;
 }
 
 .content h3{
-    margin-top: 40px;
+    margin-top: 30px;
 color:black;
 font-size:35px;
 font-weight:bold;
@@ -332,7 +331,7 @@ width:400px;
 height:400px;
 
 border-radius:50%;
-margin:0px auto;
+margin:2px auto;
 
 
 }
