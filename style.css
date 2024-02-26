@@ -72,8 +72,8 @@ background-size:cover;
 }
 
 .content h2{
-color:white;
-font-size:70px;
+color:black;
+font-size:50px;
 font-weight:bold;
 
 
@@ -325,8 +325,8 @@ box-sizing: border-box;
 margin:;
 }
 .content img{
-width:400px;
-height:400px;
+width:200px;
+height:200px;
 float:right;
 border-radius:50%;
 margin-bottom:40px;
